@@ -1,0 +1,101 @@
+.container {
+    display: block;
+    position: relative;
+    top: 166px;
+    margin: 0 auto;
+}
+
+.pattern-top {
+    position: absolute;
+    right: 195px;
+    bottom: 157px;
+    transform: rotate(0deg);
+}
+
+.information {
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    height: 89%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0 8px 24px,
+        rgba(17, 17, 26, 0.1) 0 16px 56px,
+        rgba(17, 17, 26, 0.1) 0 24px 80px;
+}
+
+.information > * {
+    border-radius: 10px 10px 0 0;
+}
+
+.bottom-card {
+    display: block;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
+.bottom-card > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.victor {
+    display: flex;
+    position: relative;
+    bottom: 52px;
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 55px;
+}
+
+.name-age > * {
+    padding: 16px 0 10px 0;
+}
+
+.name, .likes {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.age, .location { color: hsl(0, 0%, 59%); }
+
+.location { padding-bottom: 20px; }
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 15px;
+    gap: 10px;
+}
+
+.social {
+    display: grid;
+    gap: 6px;
+}
+
+.followers {
+    display: block;
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+}
+
+.pattern-bottom {
+    position: absolute;
+    left: 195px;
+    top: 163px;
+    transform: rotate(0deg);
+    z-index: -1;
+}
+
+footer {
+    position: relative;
+    top: 35px;
+}
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
