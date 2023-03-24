@@ -26,6 +26,8 @@
     --size-150: 9.325rem;
 }
 
+html { overflow: hidden; }
+
 body {
     background-color: hsl(185, 75%, 39%);
     font-family: "Kumbh Sans", sans-serif;
