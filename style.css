@@ -19,6 +19,7 @@ main { display: flex; }
     border-radius: 10px;
     background-color: white;
     height: 89%;
+    z-index: 1;
     box-shadow: rgba(17, 17, 26, 0.1) 0 8px 24px,
         rgba(17, 17, 26, 0.1) 0 16px 56px,
         rgba(17, 17, 26, 0.1) 0 24px 80px;
@@ -88,8 +89,8 @@ main { display: flex; }
 .pattern-bottom {
     position: absolute;
     left: 195px;
-    top: 163px;
-    transform: rotate(0deg);
+    top: 176px;
+    transform: rotate(-40deg);
     z-index: -1;
     overflow: hidden;
 }
