@@ -27,12 +27,13 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
     background-color: hsl(185, 75%, 39%);
-    font-family: Kumbh Sans;
+    font-family: "Kumbh Sans", sans-serif;
     overflow: hidden;
     touch-action: pan-y;
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 0;
 }
 
 *,
