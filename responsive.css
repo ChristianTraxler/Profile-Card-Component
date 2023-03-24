@@ -1,66 +1,37 @@
 @media screen and (max-width: 500px) {
 
-    body { background-size: initial}
-
-    .header-image, .order-summary-card { width: 88%; }
-
-    .order-summary-card { height: 70%; }
-
-    .title { font-size: 24px; }
-
-    .summary-txt { max-width: 84%; }
-
-    .annual, .price { font-size: 0.8em; }
-
-    .music-icon { width: 20%; }
-
-    .change {
-        display: flex;
-        position: relative;
-        margin: initial;
-        align-items: center;
-        left: 57px;
-        font-size: 0.8em;
-        font-weight: 700;
+    .pattern-bottom {
+        position: absolute;
+        left: 195px;
+        top: 163px;
+        transform: rotate(0deg);
+        z-index: -1;
+        overflow: hidden;
     }
-
-    .cancel { width: 32%; }
 
     footer { padding: 0 0 20px 0; }
 }
 
 @media screen and (max-width: 400px) {
 
-    .header-image, .order-summary-card { width: 88%; }
-
-    .order-summary-card { height: 70%; }
-
-    .title { font-size: 24px; }
-
-    .summary-txt { max-width: 84%; }
-
-    .annual, .price { font-size: 0.8em; }
-
-    .music-icon { width: 20%; }
-
-    .change {
-        display: flex;
-        position: relative;
-        align-items: center;
-        margin: initial;
-        left: 44px;
-        font-size: 0.8em;
+    .pattern-bottom {
+        position: absolute;
+        left: 195px;
+        top: 163px;
+        transform: rotate(0deg);
+        z-index: -1;
+        overflow: hidden;
     }
-
-    .cancel { width: 35%; }
 }
 
 @media screen and (max-width: 375px) {
 
-    .change {
-        margin: initial;
-        left: 34px;
+    .pattern-bottom {
+        position: absolute;
+        left: 195px;
+        top: 163px;
+        transform: rotate(0deg);
+        z-index: -1;
+        overflow: hidden;
     }
-
-    .cancel { width: 37%; }
 }
