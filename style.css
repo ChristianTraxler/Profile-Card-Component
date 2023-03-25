@@ -1,4 +1,9 @@
-main { display: flex; }
+main {
+    display: flex;
+    /*background-image: url("images/bg-pattern-top.svg");*/
+    /*background-repeat: no-repeat;*/
+    /*transform: rotate(0deg);*/
+}
 
 .container {
     display: block;
